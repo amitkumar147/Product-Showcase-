@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #050505;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 28px;
+    color: cyan;
+}
+
+nav a {
+    margin-left: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: cyan;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 300px;
+    animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+.main-title {
+    font-size: 70px;
+    color: cyan;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: cyan;
+    color: black;
+    border-radius: 5px;
+}
+
+/* FEATURES */
+.features {
+    padding: 70px 40px;
+}
+
+.feature-box {
+    background: #111;
+    padding: 25px;
+    margin: 15px 0;
+    border-left: 4px solid cyan;
+}
+
+/* GALLERY SLIDER */
+.gallery .slider {
+    display: flex;
+    overflow-x: auto;
+}
+
+.slider img {
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+/* SPECS */
+.specs {
+    padding: 70px 40px;
+}
+
+.spec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.spec {
+    padding: 20px;
+    background: #111;
+    border-left: 4px solid cyan;
+}
+
+/* REVIEWS */
+.review-card {
+    background: #111;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* BUY */
+.buy {
+    padding: 70px 40px;
+    text-align: center;
+}
+
+.buy-btn {
+    padding: 15px 35px;
+    font-size: 20px;
+    background: cyan;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
