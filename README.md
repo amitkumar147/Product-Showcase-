@@ -21,11 +21,8 @@ Perfect for brands who want to highlight products with style, motion, and 3D eff
 ## 📁 Project Structure
 ![product image]
 (product.png)
-```
-
----
-
-## 🚀 Installation
+`
+## Installation
 
 ### 1️⃣ Clone this repository
 ```
