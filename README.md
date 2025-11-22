@@ -19,9 +19,17 @@ Perfect for brands who want to highlight products with style, motion, and 3D eff
 ---
 
 ## 📁 Project Structure
-![product image]
-(product.png)
-`
+
+```📦 Product-Showcase-Website
+├── index.html
+├── /css
+│   └── style.css
+├── /js
+│   └── script.js
+└── /assets
+    ├── /images
+    └── /icons
+```
 ## Installation
 
 ### 1️⃣ Clone this repository
