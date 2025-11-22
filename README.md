@@ -29,7 +29,7 @@ Perfect for brands who want to highlight products with style, motion, and 3D eff
 
 ### 1️⃣ Clone this repository
 ```
-git clone https://github.com/amitkumar147/Product-Showcase-Website.git
+https://amitkumar147.github.io/Product-Showcase-/
 ```
 
 ### 2️⃣ Open the project
